@@ -15,3 +15,6 @@ The project uses Spring Boot, Spring Data, JDK 17, Maven and JUnit 5 + Mockito f
 3. Standalone jar for the application can be generated with `./mvnw clean package`. The jar file can be executed using `java -jar target/contacts-0.0.1-SNAPSHOT.jar` 
 
 The `./mvnw ...` commands should be executed in the root directory of the project.
+
+## CI Pipeline
+A simple CI pipeline for running the tests and packaging the application can be found at https://github.com/don4rolex/contacts/actions
